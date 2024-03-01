@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		28C2D48729BA015300650D41 /* CocoaheadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C2D48629BA015300650D41 /* CocoaheadsApp.swift */; };
-		28C2D48929BA015300650D41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C2D48829BA015300650D41 /* ContentView.swift */; };
+		28C2D48929BA015300650D41 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C2D48829BA015300650D41 /* RootView.swift */; };
 		28C2D48B29BA015400650D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C2D48A29BA015400650D41 /* Assets.xcassets */; };
 		28C2D48E29BA015400650D41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C2D48D29BA015400650D41 /* Preview Assets.xcassets */; };
 		28C2D49829BA015400650D41 /* CocoaheadsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C2D49729BA015400650D41 /* CocoaheadsTests.swift */; };
 		28C2D4A229BA015400650D41 /* CocoaheadsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C2D4A129BA015400650D41 /* CocoaheadsUITests.swift */; };
 		28C2D4A429BA015400650D41 /* CocoaheadsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C2D4A329BA015400650D41 /* CocoaheadsUITestsLaunchTests.swift */; };
+		28C2D4B129BA022200650D41 /* TwoFactorTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C2D4B029BA022200650D41 /* TwoFactorTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		28C2D48329BA015300650D41 /* Cocoaheads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cocoaheads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C2D48629BA015300650D41 /* CocoaheadsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaheadsApp.swift; sourceTree = "<group>"; };
-		28C2D48829BA015300650D41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28C2D48829BA015300650D41 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		28C2D48A29BA015400650D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28C2D48D29BA015400650D41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		28C2D49329BA015400650D41 /* CocoaheadsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaheadsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		28C2D49D29BA015400650D41 /* CocoaheadsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaheadsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C2D4A129BA015400650D41 /* CocoaheadsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaheadsUITests.swift; sourceTree = "<group>"; };
 		28C2D4A329BA015400650D41 /* CocoaheadsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaheadsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		28C2D4B029BA022200650D41 /* TwoFactorTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoFactorTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				28C2D48629BA015300650D41 /* CocoaheadsApp.swift */,
-				28C2D48829BA015300650D41 /* ContentView.swift */,
+				28C2D48829BA015300650D41 /* RootView.swift */,
+				28C2D4B029BA022200650D41 /* TwoFactorTextField.swift */,
 				28C2D48A29BA015400650D41 /* Assets.xcassets */,
 				28C2D48C29BA015400650D41 /* Preview Content */,
 			);
@@ -257,8 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28C2D48929BA015300650D41 /* ContentView.swift in Sources */,
+				28C2D48929BA015300650D41 /* RootView.swift in Sources */,
 				28C2D48729BA015300650D41 /* CocoaheadsApp.swift in Sources */,
+				28C2D4B129BA022200650D41 /* TwoFactorTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
